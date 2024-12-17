@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Controls -->
+        <div class="controls">
+            <h1>Sorting Visualizer</h1>
+
+            <!-- Algorithm -->
+            <label for="algorithm">Select Algorithm</label>
+            <select id="algorithm">
+                <option value="bubble">Bubble Sort</option>
+                <option value="selection">Selection Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="quick">Quick Sort</option>
+                <option value="merge">Merge Sort</option>
+            </select>
+
+            <!-- Speed -->
+            <label for="speed">Sorting Speed</label>
+            <select id="speed">
+                <option value="10">Very Fast</option>
+                <option value="50">Fast</option>
+                <option value="100">Normal</option>
+                <option value="500">Slow</option>
+                <option value="1000">Very Slow</option>
+            </select>
+
+            <!-- Number of Bars -->
+            <label for="size">Number of Bars</label>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <input type="range" id="size" min="10" max="50" value="20" style="flex: 1;">
+                <span id="barCountDisplay">20</span>
+            </div>
+
+            <!-- Colors -->
+            <label for="barColor">Bar Color</label>
+            <input type="color" id="barColor" value="#6c63ff">
+
+            <label for="compareColor">Comparison Color</label>
+            <input type="color" id="compareColor" value="#ff5733">
+
+            <label for="sortedColor">Sorted Bar Color</label>
+            <input type="color" id="sortedColor" value="#00ff00">
+
+            <!-- Buttons -->
+            <button id="randomize" class="button">Randomize Array</button>
+            <button id="sort" class="button">Sort</button>
+        </div>
+
+        <!-- Visualizer -->
+        <div id="bars-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

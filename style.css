@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1e1e2f;
+    color: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    height: 90vh;
+    padding: 10px;
+    gap: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 13.2px;
+    padding: 20px;
+    background-color: #282843;
+    border-radius: 10px;
+    width: 25%;
+    max-width: 300px;
+    height: 101%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.controls h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #61dafb;
+}
+
+label {
+    font-size: 14px;
+}
+
+select,
+input,
+button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+.button {
+    background-color: #6c63ff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+#bars-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.bar {
+    background-color: #6c63ff;
+    margin: 0 1px;
+    flex: 1;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .controls {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    #bars-container {
+        width: 90%;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .controls {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    select,
+    input,
+    button {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    #bars-container {
+        width: 100%;
+        height: 60vh;
+    }
+}
