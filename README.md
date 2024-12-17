@@ -17,7 +17,7 @@ Clone the repository, explore the visualizer, and experience sorting like never 
 ![UI Screenshot 2 (on Laptop)](screenshots/SS2.png)
 
 ### Screenshot 1
-![UI Screenshot 1 (on Mobile)](screenshots/SS3.png)
+![UI Screenshot 1 (on Mobile)](screenshots/SS3.jpg)
 
 ### Screenshot 2
-![UI Screenshot 2 (on Mobile)](screenshots/SS4.png)
+![UI Screenshot 2 (on Mobile)](screenshots/SS4.jpg)
