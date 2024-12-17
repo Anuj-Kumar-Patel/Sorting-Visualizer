@@ -10,14 +10,14 @@ Clone the repository, explore the visualizer, and experience sorting like never 
 
 ## UI Screenshots
 
-### Screenshot 1
+### Screenshot 1 (Desktop View)
 ![UI Screenshot 1 (on Laptop)](screenshots/SS1.png)
 
-### Screenshot 2
+### Screenshot 2 (Desktop View)
 ![UI Screenshot 2 (on Laptop)](screenshots/SS2.png)
 
-### Screenshot 1
-![UI Screenshot 1 (on Mobile)](screenshots/SS3.jpg)
+### Screenshot 3 (Mobile View)
+<img src="screenshots/SS3.jpg" alt="UI Screenshot 1 (on Mobile)" width="300" />
 
-### Screenshot 2
-![UI Screenshot 2 (on Mobile)](screenshots/SS4.jpg)
+### Screenshot 4 (Mobile View)
+<img src="screenshots/SS4.jpg" alt="UI Screenshot 2 (on Mobile)" width="300" />
